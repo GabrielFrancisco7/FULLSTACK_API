@@ -3,6 +3,8 @@ import { Activity } from "../types";
 //import { categories } from "../data/categories";
 // import { useMemo, Dispatch } from "react"; 
 import { ActivityActions } from "../reducers/activity-reducers";
+import { Dispatch } from "react";
+
 
 type ActivityListProps = {
   activities: Activity[];

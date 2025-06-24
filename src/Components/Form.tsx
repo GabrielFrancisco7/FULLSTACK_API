@@ -3,7 +3,7 @@ import { useState, ChangeEvent, FormEvent, Dispatch, useEffect } from "react";
 import { ActivityActions, ActivityState } from "../reducers/activity-reducers";
 import { categories } from "../data/categories";
 import { Activity } from "../types";
-import { PencilSquareIcon } from "@heroicons/react/24/outline"; // Importación del ícono
+// import { PencilSquareIcon } from "@heroicons/react/24/outline"; // Importación del ícono
 
 type FormProps = {
   dispatch: Dispatch<ActivityActions>;
