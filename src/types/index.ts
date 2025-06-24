@@ -9,5 +9,5 @@ export type Activity = {
   name: string;
   calories: string;
   color: string;     // 🟦 Nuevo campo: color del auto
-  espacio: number;   // 🟧 Nuevo campo: espacio asignado (1 a 20)
+  espacio: number;placas: string;     // 🟧 Nuevo campo: espacio asignado (1 a 20)
 };
