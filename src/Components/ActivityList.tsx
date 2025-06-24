@@ -1,7 +1,7 @@
 import { PencilSquareIcon } from "@heroicons/react/24/solid";
 import { Activity } from "../types";
-import { categories } from "../data/categories";
-import { useMemo, Dispatch } from "react";
+//import { categories } from "../data/categories";
+// import { useMemo, Dispatch } from "react"; 
 import { ActivityActions } from "../reducers/activity-reducers";
 
 type ActivityListProps = {
